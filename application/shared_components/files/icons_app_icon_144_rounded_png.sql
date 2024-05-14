@@ -1,14 +1,14 @@
 prompt --application/shared_components/files/icons_app_icon_144_rounded_png
 begin
 --   Manifest
---     APP STATIC FILES: 35624
+--     APP STATIC FILES: 28488
 --   Manifest End
 wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2023.10.31'
 ,p_release=>'23.2.4'
 ,p_default_workspace_id=>97735447922422803086
 ,p_default_application_id=>28488
-,p_default_id_offset=>108905738283113782385
+,p_default_id_offset=>0
 ,p_default_owner=>'WKSP_DEMOAPP007'
 );
 wwv_flow_imp.g_varchar2_table := wwv_flow_imp.empty_varchar2_table;

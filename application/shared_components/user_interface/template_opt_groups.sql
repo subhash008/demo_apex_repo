@@ -1,14 +1,14 @@
 prompt --application/shared_components/user_interface/template_opt_groups
 begin
 --   Manifest
---     THEME OPTION GROUPS: 35624
+--     THEME OPTION GROUPS: 28488
 --   Manifest End
 wwv_flow_imp.component_begin (
  p_version_yyyy_mm_dd=>'2023.10.31'
 ,p_release=>'23.2.4'
 ,p_default_workspace_id=>97735447922422803086
 ,p_default_application_id=>28488
-,p_default_id_offset=>108905738283113782385
+,p_default_id_offset=>0
 ,p_default_owner=>'WKSP_DEMOAPP007'
 );
 wwv_flow_imp_shared.create_template_opt_group(
@@ -1094,18 +1094,6 @@ wwv_flow_imp_shared.create_template_opt_group(
 ,p_null_text=>'Default'
 ,p_is_advanced=>'Y'
 );
-wwv_flow_imp.component_end;
-end;
-/
-begin
-wwv_flow_imp.component_begin (
- p_version_yyyy_mm_dd=>'2023.10.31'
-,p_release=>'23.2.4'
-,p_default_workspace_id=>97735447922422803086
-,p_default_application_id=>28488
-,p_default_id_offset=>108905738283113782385
-,p_default_owner=>'WKSP_DEMOAPP007'
-);
 wwv_flow_imp_shared.create_template_opt_group(
  p_id=>wwv_flow_imp.id(108900331048640423040)
 ,p_theme_id=>42
@@ -1116,6 +1104,18 @@ wwv_flow_imp_shared.create_template_opt_group(
 ,p_help_text=>'Determines the display style for radio and check box items.'
 ,p_null_text=>'Default'
 ,p_is_advanced=>'Y'
+);
+wwv_flow_imp.component_end;
+end;
+/
+begin
+wwv_flow_imp.component_begin (
+ p_version_yyyy_mm_dd=>'2023.10.31'
+,p_release=>'23.2.4'
+,p_default_workspace_id=>97735447922422803086
+,p_default_application_id=>28488
+,p_default_id_offset=>0
+,p_default_owner=>'WKSP_DEMOAPP007'
 );
 wwv_flow_imp_shared.create_template_opt_group(
  p_id=>wwv_flow_imp.id(108900331855851423041)

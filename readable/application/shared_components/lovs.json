@@ -1,0 +1,38 @@
+[
+  {
+    "id":"595848380742872"
+   ,"Identification":{
+      "Name":"EMP.ENAME"
+    }
+   ,"Source":{
+      "Location":"Local Database"
+     ,"Type":"Table \/ View"
+     ,"Table Owner":"Parsing Schema"
+     ,"Table Name":"EMP"
+    }
+   ,"Column Mapping":{
+      "Return":"EMPNO"
+     ,"Display":"ENAME"
+     ,"Default Sort":"ENAME"
+     ,"Sort Direction":"Ascending (Nulls Last)"
+    }
+  }
+ ,{
+    "id":"597823114742873"
+   ,"Identification":{
+      "Name":"DEPT.DNAME"
+    }
+   ,"Source":{
+      "Location":"Local Database"
+     ,"Type":"Table \/ View"
+     ,"Table Owner":"Parsing Schema"
+     ,"Table Name":"DEPT"
+    }
+   ,"Column Mapping":{
+      "Return":"DEPTNO"
+     ,"Display":"DNAME"
+     ,"Default Sort":"DNAME"
+     ,"Sort Direction":"Ascending (Nulls Last)"
+    }
+  }
+]
